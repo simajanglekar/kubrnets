@@ -4,3 +4,5 @@
 ```shell
 kubectl cluster-info    # show cluster info
 kubectl cluster-info -o wide   # show cluster info in detail
+kubectl get all    # show all info like pod and cluster
+kubectl 
