@@ -1,5 +1,6 @@
-# kubernetes Devops ~ b4
+### kubernetes Devops ~ b4
 # sima Notes
 
 ```shell
-kubectl cluster-info
+kubectl cluster-info    # show cluster info
+kubectl cluster-info -o wide   # show cluster info in detail
