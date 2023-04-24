@@ -1,8 +1,17 @@
-### kubernetes Devops ~ b4
-# sima Notes
+### kubernetes Devops 
+# sima Notes 
+
+# hosting type 
+ 1) path based hosting
+ 2) IP based hosting
+ 3) name based hosting
 
 ```shell
 kubectl cluster-info    # show cluster info
+ kubect get pods -o wide # to get list of pods--> pods meand inrapment arround the container
 kubectl cluster-info -o wide   # show cluster info in detail
 kubectl get all    # show all info like pod and cluster
-kubectl 
+kubectl get nodes # to show all onfo of nods
+kubectl run my-frist-pod --image niginx # to run pod
+
+```
