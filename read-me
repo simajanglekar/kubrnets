@@ -13,5 +13,15 @@ kubectl cluster-info -o wide   # show cluster info in detail
 kubectl get all    # show all info like pod and cluster
 kubectl get nodes # to show all onfo of nods
 kubectl run my-frist-pod --image niginx # to run pod
+kubectl get pods --namespaces kube-system
+kubectl create ns dev
+kubectl api-resources  # to get the all resources list
+minukube ssh -------> enter kelyaver curl pod ip dyachi
+kubectl expose pod sima-pod --type NodePort --port 80 #to access the pod outside the cluster---> 80 port compulsary
+kubectl get svc #----> Nortport like 32145 copy those port
+kubectl get nodes -o wide #---> node ip copy---->then 'curl 192.168.49.2:31697'-->we can access out side the cluster
+
+
+
 
 ```
